@@ -44,11 +44,18 @@ img {
     max-width: 100%;
 }
 
+.card-img, .card-img-top {
+    height: 300px;
+    object-fit: contain;
+}
+
 .list-img {
     max-width: 50%;
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
 }
+
+
 
 p {
     margin-left: 4%;
@@ -69,4 +76,8 @@ p {
         margin-top: 2%;
         margin-bottom: 1%;
     }
+}
+
+.jumbotron {
+    background: cadetblue;
 }
