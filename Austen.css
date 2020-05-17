@@ -1,0 +1,72 @@
+
+@media (min-width: 578px) {
+    h1 {
+        color: rgb(73, 65, 148);
+        font-family: serif;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-left: 4%;
+        margin-right: 3%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        text-align: left;
+    }
+
+    body {
+        background: rgb(227, 234, 235);
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background: rgb(194, 217, 228);
+    border: solid rgb(9, 19, 13);
+}
+
+
+.row {
+    display: flex;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(73, 65, 148);
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.list-img {
+    max-width: 50%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+p {
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: darkslategray;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .column {
+        width: 100%;
+        margin-left: 4%;
+        margin-right: 3%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+}
